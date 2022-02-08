@@ -32,17 +32,17 @@ class LinkedList
 		return count;
 	}
 }
-class LinkedListMain
+class Length
 {
 	public static void main(String[] args)
 	{
-		LinkedList llist = new LinkedList();
-		llist.push(3);
-		llist.push(2);
-		llist.push(5);
-		llist.push(7);
-		llist.push(2);
-		System.out.println("Count of nodes is " +llist.getCount());
+		Length obj = new Length();
+		obj.push(3);
+		obj.push(2);
+		obj.push(5);
+		obj.push(7);
+		obj.push(2);
+		System.out.println("Count of nodes is " +obj.getCount());
 	}
 }
 
